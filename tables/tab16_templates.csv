@@ -1,0 +1,5 @@
+Family,Position,T_train chars,T_test chars,Neutral chars
+notice,suffix,156,199,204
+footer,suffix,151,131,143
+hidden,suffix,122,179,163
+override,prefix,125,138,125

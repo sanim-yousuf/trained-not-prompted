@@ -1,0 +1,6 @@
+attack,target,n,asr,asr_lo,asr_hi,median_queries,median_words
+score-guided padding (phishing),LoRA-1.5B,119,1.0,1.0,1.0,48.0,42.0
+score-guided padding (phishing),LoRA-AugMix-1.5B,120,0.6166666666666667,0.525,0.7,108.0,88.0
+score-guided padding (phishing),LR-word,120,0.6916666666666667,0.6083333333333333,0.775,120.0,107.0
+label-only padding (phishing),LoRA-AugMix-1.5B,120,0.18333333333333332,0.11666666666666667,0.25833333333333336,84.0,75.5
+label-only padding (phishing),LR-word,120,0.21666666666666667,0.15,0.2916666666666667,101.5,91.5

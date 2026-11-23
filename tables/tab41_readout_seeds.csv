@@ -1,0 +1,7 @@
+Detector,Seeds,Clean,Natural pad,Worst pad,AUC lost (aware),FPR +instructions
+LoRA-1.5B,3,99.2 $\pm$ 0.2,57.8 $\pm$ 12.0,32.6 $\pm$ 9.6,-0.0001,2.0
+LoRA-Gen-1.5B,3,98.8 $\pm$ 0.3,73.4 $\pm$ 9.7,43.3 $\pm$ 10.1,0.0011,0.5 $\pm$ 0.3
+LoRA-Prompt-1.5B,3,99.1 $\pm$ 0.3,87.5 $\pm$ 3.4,59.6 $\pm$ 11.8,0.0001,0.8 $\pm$ 0.3
+LoRA-Mean-1.5B,3,99.2 $\pm$ 0.3,82.3 $\pm$ 9.3,47.2 $\pm$ 11.4,0.0000,0.8 $\pm$ 0.5
+RoBERTa-FT,3,99.1 $\pm$ 0.2,89.3 $\pm$ 3.6,40.6 $\pm$ 10.5,0.0003,0.5 $\pm$ 0.1
+LoRA-AugMix-1.5B,3,98.9 $\pm$ 0.4,97.9 $\pm$ 0.3,97.0 $\pm$ 0.1,-0.0001,4.1 $\pm$ 4.3

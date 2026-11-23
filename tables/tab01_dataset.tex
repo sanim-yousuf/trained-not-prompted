@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Corpus statistics after cleaning and de-duplication.}
+\label{tab:dataset}
+\footnotesize
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Source} & \textbf{Legitimate} & \textbf{Malicious} & \textbf{Total} & \textbf{Train} & \textbf{Val} & \textbf{Test} \\
+\midrule
+CEAS-08 & 17,061 & 15,662 & 32,723 & 22,907 & 3,272 & 6,544 \\
+Enron & 14,383 & 13,893 & 28,276 & 19,793 & 2,827 & 5,656 \\
+SpamAssassin & 4,075 & 1,585 & 5,660 & 3,961 & 567 & 1,132 \\
+Nigerian-Fraud & 0 & 3,229 & 3,229 & 2,260 & 323 & 646 \\
+Ling & 2,395 & 455 & 2,850 & 1,995 & 285 & 570 \\
+Nazario & 0 & 1,522 & 1,522 & 1,066 & 152 & 304 \\
+Total & 37,914 & 36,346 & 74,260 & 51,982 & 7,426 & 14,852 \\
+\bottomrule
+\end{tabular}
+\\[2pt]{\scriptsize Raw emails: 82,486; removed by de-duplication: 8,177; label-conflicting groups dropped: 0.}
+\end{table}

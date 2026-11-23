@@ -1,0 +1,4 @@
+seed,it_like_legit,it_like_malicious,fpr_it_LoRA-1.5B,fpr_instr_LoRA-1.5B,fpr_it_LoRA-AugMix-1.5B,fpr_instr_LoRA-AugMix-1.5B
+42,32,21,0.15,0.02,0.34,0.09
+43,35,22,,,0.06,0.01
+44,42,28,,,0.14,0.02375

@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Adaptive injection attack vs matched benign control (success in \% of caught emails).}
+\label{tab:injadaptive}
+\footnotesize
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Target} & \textbf{Caught} & \textbf{Instructions} & \textbf{Benign control} & \textbf{Difference} & \textbf{Holm p} \\
+\midrule
+LoRA-Gen-1.5B & 100 & 27.0 [18.0, 36.0] & 73.0 [65.0, 82.0] & -46.0 [-57.0, -35.0] & 3.13e-11 \\
+LoRA-1.5B & 99 & 5.1 [1.0, 10.1] & 90.9 [84.8, 96.0] & -85.9 [-91.9, -78.8] & 2.07e-25 \\
+ZS-7B & 74 & 100.0 [100.0, 100.0] & 73.0 [62.2, 83.8] & +27.0 [+17.6, +37.8] & 3.81e-06 \\
+ZS-L3B & 75 & 100.0 [100.0, 100.0] & 98.7 [96.0, 100.0] & +1.3 [+0.0, +4.0] & 1 \\
+\bottomrule
+\end{tabular}
+\end{table}

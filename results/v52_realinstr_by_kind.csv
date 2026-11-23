@@ -1,0 +1,105 @@
+detector,kind,n,fpr,fpr_lo,fpr_hi
+LR-word,"a colleague forwarding an answer they got from an AI writing assistant, quoting the assistant's suggested steps",122,0.0,0.0,0.0
+LR-word,a facilities notice with instructions for using the new meeting-room booking system,98,0.0,0.0,0.0
+LR-word,"a newsletter section about writing better prompts for AI chatbots, quoting an example prompt that tells the chatbot what to do",122,0.0,0.0,0.0
+LR-word,"a project manager assigning this week's tasks to the team, with clear instructions for each person",100,0.0,0.0,0.0
+LR-word,a teacher's instructions to students for submitting an assignment,121,0.0,0.0,0.0
+LR-word,"an IT department notice telling staff how to update their password manager, with step-by-step instructions",100,0.0,0.0,0.0
+LR-word,an out-of-office message telling the reader whom to contact and what to do in the meantime,16,0.0,0.0,0.0
+LR-word,release notes explaining how to configure a new version of an internal software tool,121,0.0,0.0,0.0
+LoRA-1.5B,"a colleague forwarding an answer they got from an AI writing assistant, quoting the assistant's suggested steps",122,0.0,0.0,0.0
+LoRA-1.5B,a facilities notice with instructions for using the new meeting-room booking system,98,0.0,0.0,0.0
+LoRA-1.5B,"a newsletter section about writing better prompts for AI chatbots, quoting an example prompt that tells the chatbot what to do",122,0.00819672131147541,0.0,0.02459016393442623
+LoRA-1.5B,"a project manager assigning this week's tasks to the team, with clear instructions for each person",100,0.0,0.0,0.0
+LoRA-1.5B,a teacher's instructions to students for submitting an assignment,121,0.0,0.0,0.0
+LoRA-1.5B,"an IT department notice telling staff how to update their password manager, with step-by-step instructions",100,0.15,0.08,0.22
+LoRA-1.5B,an out-of-office message telling the reader whom to contact and what to do in the meantime,16,0.0,0.0,0.0
+LoRA-1.5B,release notes explaining how to configure a new version of an internal software tool,121,0.0,0.0,0.0
+LoRA-Aug-1.5B,"a colleague forwarding an answer they got from an AI writing assistant, quoting the assistant's suggested steps",122,0.00819672131147541,0.0,0.02459016393442623
+LoRA-Aug-1.5B,a facilities notice with instructions for using the new meeting-room booking system,98,0.0,0.0,0.0
+LoRA-Aug-1.5B,"a newsletter section about writing better prompts for AI chatbots, quoting an example prompt that tells the chatbot what to do",122,0.01639344262295082,0.0,0.040983606557377046
+LoRA-Aug-1.5B,"a project manager assigning this week's tasks to the team, with clear instructions for each person",100,0.02,0.0,0.05
+LoRA-Aug-1.5B,a teacher's instructions to students for submitting an assignment,121,0.0,0.0,0.0
+LoRA-Aug-1.5B,"an IT department notice telling staff how to update their password manager, with step-by-step instructions",100,0.05,0.01,0.1
+LoRA-Aug-1.5B,an out-of-office message telling the reader whom to contact and what to do in the meantime,16,0.0,0.0,0.0
+LoRA-Aug-1.5B,release notes explaining how to configure a new version of an internal software tool,121,0.0,0.0,0.0
+LoRA-AugMix-1.5B,"a colleague forwarding an answer they got from an AI writing assistant, quoting the assistant's suggested steps",122,0.03278688524590164,0.00819672131147541,0.06557377049180328
+LoRA-AugMix-1.5B,a facilities notice with instructions for using the new meeting-room booking system,98,0.02040816326530612,0.0,0.05102040816326531
+LoRA-AugMix-1.5B,"a newsletter section about writing better prompts for AI chatbots, quoting an example prompt that tells the chatbot what to do",122,0.04918032786885246,0.01639344262295082,0.09016393442622951
+LoRA-AugMix-1.5B,"a project manager assigning this week's tasks to the team, with clear instructions for each person",100,0.0,0.0,0.0
+LoRA-AugMix-1.5B,a teacher's instructions to students for submitting an assignment,121,0.024793388429752067,0.0,0.05785123966942149
+LoRA-AugMix-1.5B,"an IT department notice telling staff how to update their password manager, with step-by-step instructions",100,0.34,0.25,0.43
+LoRA-AugMix-1.5B,an out-of-office message telling the reader whom to contact and what to do in the meantime,16,0.0625,0.0,0.1875
+LoRA-AugMix-1.5B,release notes explaining how to configure a new version of an internal software tool,121,0.18181818181818182,0.11570247933884298,0.256198347107438
+LoRA-Gen-1.5B,"a colleague forwarding an answer they got from an AI writing assistant, quoting the assistant's suggested steps",122,0.0,0.0,0.0
+LoRA-Gen-1.5B,a facilities notice with instructions for using the new meeting-room booking system,98,0.0,0.0,0.0
+LoRA-Gen-1.5B,"a newsletter section about writing better prompts for AI chatbots, quoting an example prompt that tells the chatbot what to do",122,0.0,0.0,0.0
+LoRA-Gen-1.5B,"a project manager assigning this week's tasks to the team, with clear instructions for each person",100,0.0,0.0,0.0
+LoRA-Gen-1.5B,a teacher's instructions to students for submitting an assignment,121,0.0,0.0,0.0
+LoRA-Gen-1.5B,"an IT department notice telling staff how to update their password manager, with step-by-step instructions",100,0.07,0.029750000000000013,0.13
+LoRA-Gen-1.5B,an out-of-office message telling the reader whom to contact and what to do in the meantime,16,0.0,0.0,0.0
+LoRA-Gen-1.5B,release notes explaining how to configure a new version of an internal software tool,121,0.0,0.0,0.0
+LoRA-Prompt-1.5B,"a colleague forwarding an answer they got from an AI writing assistant, quoting the assistant's suggested steps",122,0.0,0.0,0.0
+LoRA-Prompt-1.5B,a facilities notice with instructions for using the new meeting-room booking system,98,0.0,0.0,0.0
+LoRA-Prompt-1.5B,"a newsletter section about writing better prompts for AI chatbots, quoting an example prompt that tells the chatbot what to do",122,0.01639344262295082,0.0,0.040983606557377046
+LoRA-Prompt-1.5B,"a project manager assigning this week's tasks to the team, with clear instructions for each person",100,0.0,0.0,0.0
+LoRA-Prompt-1.5B,a teacher's instructions to students for submitting an assignment,121,0.0,0.0,0.0
+LoRA-Prompt-1.5B,"an IT department notice telling staff how to update their password manager, with step-by-step instructions",100,0.07,0.03,0.12024999999999977
+LoRA-Prompt-1.5B,an out-of-office message telling the reader whom to contact and what to do in the meantime,16,0.0,0.0,0.0
+LoRA-Prompt-1.5B,release notes explaining how to configure a new version of an internal software tool,121,0.0,0.0,0.0
+LoRA-Mean-1.5B,"a colleague forwarding an answer they got from an AI writing assistant, quoting the assistant's suggested steps",122,0.0,0.0,0.0
+LoRA-Mean-1.5B,a facilities notice with instructions for using the new meeting-room booking system,98,0.0,0.0,0.0
+LoRA-Mean-1.5B,"a newsletter section about writing better prompts for AI chatbots, quoting an example prompt that tells the chatbot what to do",122,0.00819672131147541,0.0,0.02459016393442623
+LoRA-Mean-1.5B,"a project manager assigning this week's tasks to the team, with clear instructions for each person",100,0.0,0.0,0.0
+LoRA-Mean-1.5B,a teacher's instructions to students for submitting an assignment,121,0.0,0.0,0.0
+LoRA-Mean-1.5B,"an IT department notice telling staff how to update their password manager, with step-by-step instructions",100,0.06,0.02,0.11
+LoRA-Mean-1.5B,an out-of-office message telling the reader whom to contact and what to do in the meantime,16,0.0,0.0,0.0
+LoRA-Mean-1.5B,release notes explaining how to configure a new version of an internal software tool,121,0.0,0.0,0.0
+RoBERTa-FT,"a colleague forwarding an answer they got from an AI writing assistant, quoting the assistant's suggested steps",122,0.00819672131147541,0.0,0.02459016393442623
+RoBERTa-FT,a facilities notice with instructions for using the new meeting-room booking system,98,0.0,0.0,0.0
+RoBERTa-FT,"a newsletter section about writing better prompts for AI chatbots, quoting an example prompt that tells the chatbot what to do",122,0.0,0.0,0.0
+RoBERTa-FT,"a project manager assigning this week's tasks to the team, with clear instructions for each person",100,0.0,0.0,0.0
+RoBERTa-FT,a teacher's instructions to students for submitting an assignment,121,0.0,0.0,0.0
+RoBERTa-FT,"an IT department notice telling staff how to update their password manager, with step-by-step instructions",100,0.02,0.0,0.05
+RoBERTa-FT,an out-of-office message telling the reader whom to contact and what to do in the meantime,16,0.0,0.0,0.0
+RoBERTa-FT,release notes explaining how to configure a new version of an internal software tool,121,0.0,0.0,0.0
+RoBERTa-AugMix,"a colleague forwarding an answer they got from an AI writing assistant, quoting the assistant's suggested steps",122,0.01639344262295082,0.0,0.040983606557377046
+RoBERTa-AugMix,a facilities notice with instructions for using the new meeting-room booking system,98,0.02040816326530612,0.0,0.05102040816326531
+RoBERTa-AugMix,"a newsletter section about writing better prompts for AI chatbots, quoting an example prompt that tells the chatbot what to do",122,0.0,0.0,0.0
+RoBERTa-AugMix,"a project manager assigning this week's tasks to the team, with clear instructions for each person",100,0.01,0.0,0.03
+RoBERTa-AugMix,a teacher's instructions to students for submitting an assignment,121,0.0,0.0,0.0
+RoBERTa-AugMix,"an IT department notice telling staff how to update their password manager, with step-by-step instructions",100,0.04,0.01,0.08
+RoBERTa-AugMix,an out-of-office message telling the reader whom to contact and what to do in the meantime,16,0.0,0.0,0.0
+RoBERTa-AugMix,release notes explaining how to configure a new version of an internal software tool,121,0.01652892561983471,0.0,0.04132231404958678
+LoRA-Win-1.5B,"a colleague forwarding an answer they got from an AI writing assistant, quoting the assistant's suggested steps",122,0.0,0.0,0.0
+LoRA-Win-1.5B,a facilities notice with instructions for using the new meeting-room booking system,98,0.0,0.0,0.0
+LoRA-Win-1.5B,"a newsletter section about writing better prompts for AI chatbots, quoting an example prompt that tells the chatbot what to do",122,0.01639344262295082,0.0,0.040983606557377046
+LoRA-Win-1.5B,"a project manager assigning this week's tasks to the team, with clear instructions for each person",100,0.01,0.0,0.03
+LoRA-Win-1.5B,a teacher's instructions to students for submitting an assignment,121,0.008264462809917356,0.0,0.024999999999999814
+LoRA-Win-1.5B,"an IT department notice telling staff how to update their password manager, with step-by-step instructions",100,0.35,0.26,0.45
+LoRA-Win-1.5B,an out-of-office message telling the reader whom to contact and what to do in the meantime,16,0.0,0.0,0.0
+LoRA-Win-1.5B,release notes explaining how to configure a new version of an internal software tool,121,0.05785123966942149,0.01652892561983471,0.09917355371900827
+ZS-7B,"a colleague forwarding an answer they got from an AI writing assistant, quoting the assistant's suggested steps",122,0.0,0.0,0.0
+ZS-7B,a facilities notice with instructions for using the new meeting-room booking system,98,0.0,0.0,0.0
+ZS-7B,"a newsletter section about writing better prompts for AI chatbots, quoting an example prompt that tells the chatbot what to do",122,0.00819672131147541,0.0,0.02459016393442623
+ZS-7B,"a project manager assigning this week's tasks to the team, with clear instructions for each person",100,0.0,0.0,0.0
+ZS-7B,a teacher's instructions to students for submitting an assignment,121,0.01652892561983471,0.0,0.04132231404958678
+ZS-7B,"an IT department notice telling staff how to update their password manager, with step-by-step instructions",100,0.29,0.2,0.37
+ZS-7B,an out-of-office message telling the reader whom to contact and what to do in the meantime,16,0.0,0.0,0.0
+ZS-7B,release notes explaining how to configure a new version of an internal software tool,121,0.01652892561983471,0.0,0.04132231404958678
+Probe-1.5B,"a colleague forwarding an answer they got from an AI writing assistant, quoting the assistant's suggested steps",122,0.01639344262295082,0.0,0.040983606557377046
+Probe-1.5B,a facilities notice with instructions for using the new meeting-room booking system,98,0.0,0.0,0.0
+Probe-1.5B,"a newsletter section about writing better prompts for AI chatbots, quoting an example prompt that tells the chatbot what to do",122,0.04918032786885246,0.01639344262295082,0.09016393442622951
+Probe-1.5B,"a project manager assigning this week's tasks to the team, with clear instructions for each person",100,0.0,0.0,0.0
+Probe-1.5B,a teacher's instructions to students for submitting an assignment,121,0.024793388429752067,0.0,0.05785123966942149
+Probe-1.5B,"an IT department notice telling staff how to update their password manager, with step-by-step instructions",100,0.03,0.0,0.06
+Probe-1.5B,an out-of-office message telling the reader whom to contact and what to do in the meantime,16,0.0,0.0,0.0
+Probe-1.5B,release notes explaining how to configure a new version of an internal software tool,121,0.0,0.0,0.0
+Hybrid-OR,"a colleague forwarding an answer they got from an AI writing assistant, quoting the assistant's suggested steps",122,0.0,0.0,0.0
+Hybrid-OR,a facilities notice with instructions for using the new meeting-room booking system,98,0.0,0.0,0.0
+Hybrid-OR,"a newsletter section about writing better prompts for AI chatbots, quoting an example prompt that tells the chatbot what to do",122,0.0,0.0,0.0
+Hybrid-OR,"a project manager assigning this week's tasks to the team, with clear instructions for each person",100,0.0,0.0,0.0
+Hybrid-OR,a teacher's instructions to students for submitting an assignment,121,0.0,0.0,0.0
+Hybrid-OR,"an IT department notice telling staff how to update their password manager, with step-by-step instructions",100,0.14,0.07975000000000002,0.21
+Hybrid-OR,an out-of-office message telling the reader whom to contact and what to do in the meantime,16,0.0,0.0,0.0
+Hybrid-OR,release notes explaining how to configure a new version of an internal software tool,121,0.0,0.0,0.0

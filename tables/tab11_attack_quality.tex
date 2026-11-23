@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Paraphrase attack quality (attacker: microsoft/Phi-3.5-mini-instruct); medians over valid rewrites.}
+\label{tab:quality}
+\footnotesize
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Rewrites} & \textbf{Valid (\%)} & \textbf{Refusals (\%)} & \textbf{URLs kept before repair (\%)} & \textbf{Length ratio} & \textbf{Lexical sim.} & \textbf{Semantic sim.} \\
+\midrule
+800 & 88.9 & 0.0 & 95.7 & 1.12 & 0.59 & 0.84 \\
+\bottomrule
+\end{tabular}
+\\[2pt]{\scriptsize Funnel: generated: 800; not refusal: 800; length 0.4x to 2.5x: 762; meaning >= 0.6: 711}
+\end{table}

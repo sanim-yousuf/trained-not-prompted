@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\caption{One factor at a time: change in the AUC lost to the instruction (positive: the first detector loses more).}
+\label{tab:steps}
+\footnotesize
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Step} & \textbf{From} & \textbf{To} & \textbf{Wording} & \textbf{Change in AUC lost [95\% CI]} \\
+\midrule
+train the label word (same prompt, same read-out) & ZS-1.5B & LoRA-Gen-1.5B & generic & 0.393 [0.369, 0.419] \\
+train the label word (same prompt, same read-out) & ZS-1.5B & LoRA-Gen-1.5B & label-aware & 0.510 [0.480, 0.537] \\
+label word -> classification head (same prompt) & LoRA-Gen-1.5B & LoRA-Prompt-1.5B & generic & 0.000 [0.000, 0.001] \\
+label word -> classification head (same prompt) & LoRA-Gen-1.5B & LoRA-Prompt-1.5B & label-aware & 0.001 [0.000, 0.001] \\
+prompted input -> raw email (head) & LoRA-Prompt-1.5B & LoRA-1.5B & generic & 0.000 [0.000, 0.000] \\
+prompted input -> raw email (head) & LoRA-Prompt-1.5B & LoRA-1.5B & label-aware & 0.000 [0.000, 0.000] \\
+prompted -> trained, all at once & ZS-1.5B & LoRA-1.5B & generic & 0.394 [0.368, 0.418] \\
+prompted -> trained, all at once & ZS-1.5B & LoRA-1.5B & label-aware & 0.510 [0.483, 0.538] \\
+prompt defense: spotlighting & ZS-1.5B & ZS-Spot-1.5B & generic & 0.076 [0.059, 0.093] \\
+prompt defense: spotlighting & ZS-1.5B & ZS-Spot-1.5B & label-aware & 0.149 [0.132, 0.165] \\
+scale: 1.5B -> 7B (prompted) & ZS-1.5B & ZS-7B & generic & 0.364 [0.342, 0.388] \\
+scale: 1.5B -> 7B (prompted) & ZS-1.5B & ZS-7B & label-aware & 0.464 [0.436, 0.489] \\
+\bottomrule
+\end{tabular}
+\end{table}

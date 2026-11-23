@@ -1,0 +1,267 @@
+{
+  "run_name": "cbs_v3",
+  "seed": 42,
+  "data_root": "/kaggle/input/datasets/naserabdullahalam/phishing-email-dataset",
+  "input_root": "/kaggle/input",
+  "work_dir": "/kaggle/working",
+  "backbones": [
+    {
+      "tag": "1.5B",
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "lora_seeds": [
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "tag": "3B",
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "lora_seeds": [
+        42
+      ]
+    }
+  ],
+  "attacker_model": "microsoft/Phi-3.5-mini-instruct",
+  "semsim_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "hf_token_secret": "HF_TOKEN",
+  "max_chars": 3000,
+  "min_chars": 40,
+  "slm_max_tokens": 512,
+  "lora_max_tokens": 384,
+  "n_val_legit": null,
+  "n_val_mal": 1000,
+  "n_val_inj": 2000,
+  "n_val_pad": 1000,
+  "n_test_legit": 3000,
+  "n_test_mal": 1000,
+  "n_attack": 800,
+  "n_adaptive": 300,
+  "n_probe_train": 4000,
+  "n_lora_train": 8000,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "lora_lr": 0.0002,
+  "lora_epochs": 1,
+  "lora_batch": 8,
+  "lora_grad_accum": 2,
+  "lora_warmup": 0.05,
+  "lora_loso_sources": [
+    "Enron",
+    "Nazario"
+  ],
+  "lora_loso_more": [
+    "CEAS-08",
+    "Ling",
+    "Nigerian-Fraud",
+    "SpamAssassin"
+  ],
+  "lora_aug": {
+    "enabled": true,
+    "frac": 0.5,
+    "k": 80
+  },
+  "xsrc_source": "Enron",
+  "force_fp32": false,
+  "score_batch": 16,
+  "gen_batch": 8,
+  "gen_max_new_tokens": 512,
+  "gen_input_max_tokens": 700,
+  "gen_temperature": 0.7,
+  "gen_top_p": 0.9,
+  "paraphrase_shards": 2,
+  "goodword_k": 80,
+  "adaptive_pad_levels": [
+    0,
+    40,
+    80
+  ],
+  "goodword_lexicon_size": 400,
+  "para_min_semsim": 0.6,
+  "para_len_range": [
+    0.4,
+    2.5
+  ],
+  "n_benign_suffix": 800,
+  "adaptive_nat_levels": [
+    40,
+    80
+  ],
+  "extra_backbones": [
+    {
+      "candidates": [
+        [
+          "meta-llama/Llama-3.2-3B-Instruct",
+          "L3B"
+        ],
+        [
+          "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+          "S1.7B"
+        ]
+      ],
+      "lora_seeds": [
+        42
+      ]
+    }
+  ],
+  "prompt_fewshot": {
+    "enabled": true,
+    "k": 4,
+    "shot_tokens": 96
+  },
+  "prompt_large": {
+    "enabled": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "tag": "7B",
+    "quant4": true
+  },
+  "ood_pad": {
+    "k": 80,
+    "k_long": 240,
+    "n_llm_paragraphs": 400,
+    "adaptive": true
+  },
+  "lora_aug_seeds": [
+    43,
+    44
+  ],
+  "lora_augmix": {
+    "enabled": true,
+    "frac": 0.5,
+    "k_range": [
+      40,
+      240
+    ],
+    "mix": true
+  },
+  "modern": {
+    "enabled": true,
+    "local_glob": "**/PhishFuzzer_emails_*_v1.json",
+    "base_url": "https://raw.githubusercontent.com/DataPhish/PhishFuzzer/main/",
+    "files": [
+      "PhishFuzzer_emails_original_seed_v1.json",
+      "PhishFuzzer_emails_entity_rephrased_v1.json"
+    ],
+    "min_year_human": 2019,
+    "n_llm": 3000,
+    "n_attack": 600,
+    "decontam_cos": 0.8
+  },
+  "n_pad_audit": 50,
+  "v5": {
+    "lora_gen": true,
+    "lora_prompt": true,
+    "lora_mean": true,
+    "window": {
+      "enabled": true,
+      "words": 160,
+      "stride": 160
+    },
+    "encoder": {
+      "enabled": true,
+      "model": "FacebookAI/roberta-base",
+      "tag": "RoBERTa",
+      "max_tokens": 512,
+      "lr": 2e-05,
+      "epochs": 2,
+      "batch": 16,
+      "warmup": 0.06,
+      "augmix": true
+    },
+    "augmix_seeds": [
+      43,
+      44
+    ],
+    "big_seeds": [
+      43
+    ],
+    "spot": {
+      "enabled": true,
+      "extra_backbone": true,
+      "large": true
+    },
+    "large_more_sets": true,
+    "realinstr": {
+      "enabled": true,
+      "n_paragraphs": 400
+    },
+    "greedy": {
+      "enabled": true,
+      "n_emails": 150,
+      "steps": 8,
+      "cands": 24,
+      "max_words": 240,
+      "positions": [
+        "suffix",
+        "prefix"
+      ],
+      "n_sentences": 3000
+    },
+    "gcg": {
+      "enabled": true,
+      "n_emails": 30,
+      "suffix_tokens": 20,
+      "steps": 25,
+      "topk": 64,
+      "batch": 24
+    },
+    "v51": {
+      "hybrid_attack": true,
+      "label_only": true
+    },
+    "v52": {
+      "readout_seeds": [
+        43,
+        44
+      ],
+      "readout_variants": [
+        "gen",
+        "prompt",
+        "mean",
+        "encoder"
+      ],
+      "inj_attack": {
+        "enabled": true,
+        "n_emails": 100,
+        "steps": 3,
+        "cands": 16,
+        "max_words": 75,
+        "positions": [
+          "suffix",
+          "prefix"
+        ],
+        "n_sentences": 400,
+        "targets": [
+          "gen",
+          "lora",
+          "large",
+          "extra_zs"
+        ]
+      },
+      "phish": {
+        "enabled": true,
+        "n_pool": 500,
+        "n_greedy": 120,
+        "attack_targets": [
+          "lora",
+          "augmix"
+        ],
+        "label_targets": [
+          "augmix"
+        ]
+      }
+    }
+  },
+  "target_fprs": [
+    0.01,
+    0.05
+  ],
+  "primary_fpr": 0.01,
+  "n_boot": 1000,
+  "ece_bins": 10,
+  "n_folds": 5,
+  "loso_max_train": 30000,
+  "time_budget_h": 11.0,
+  "max_parallel_jobs": null
+}

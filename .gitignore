@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Notebook working directories and private outputs: never commit these
+cbs/
+private/
+cache/
+working/
+*.zip
+src/_notebook_source.py
+
+# Secrets
+.env
+*.token
+kaggle.json
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

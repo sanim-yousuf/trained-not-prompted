@@ -1,0 +1,8 @@
+Detector,Mean (all sources),Sources,Balanced acc. (mixed sources),Min (mixed),TPR (all-malicious sources)
+NB,0.825,6,0.893,0.764,0.69
+LR-word,0.88,6,0.898,0.783,0.845
+SVM-char,0.865,6,0.874,0.725,0.845
+RF,0.792,6,0.861,0.779,0.654
+XGBoost,0.834,6,0.89,0.805,0.721
+Probe-1.5B,0.869,6,0.914,0.848,0.778
+LoRA-1.5B,0.951,6,0.95,0.927,0.952

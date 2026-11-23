@@ -1,0 +1,21 @@
+Defense,Arm,Base text,Injection family,Padding,Success (%)
+Hybrid-OR,out-of-distribution,para,notice,"Natural pad, 240 words",76.3
+Hybrid-OR,out-of-distribution,para,none,"Natural pad, 240 words",76.3
+Hybrid-OR,out-of-distribution,para,footer,"Natural pad, 240 words",75.7
+Hybrid-OR,out-of-distribution,para,hidden,"Natural pad, 240 words",74.7
+Stack-Aug,out-of-distribution,para,none,"Natural pad, 240 words",72.7
+Stack-Aug,out-of-distribution,para,notice,"Natural pad, 240 words",72.3
+Stack-Aug,out-of-distribution,para,footer,"Natural pad, 240 words",72.3
+Stack-Aug,out-of-distribution,para,hidden,"Natural pad, 240 words",71.0
+Hybrid-Stack,out-of-distribution,para,none,"Natural pad, 240 words",69.7
+Hybrid-Stack,out-of-distribution,orig,none,"Natural pad, 240 words",63.3
+Hybrid-Stack,out-of-distribution,para,footer,"Natural pad, 240 words",57.7
+Hybrid-Stack,out-of-distribution,para,override,"Natural pad, 240 words",55.0
+LoRA-Aug-1.5B,out-of-distribution,para,override,"Natural pad, prefix",29.3
+LoRA-Aug-1.5B,out-of-distribution,para,notice,"Natural pad, prefix",29.0
+LoRA-Aug-1.5B,out-of-distribution,para,none,"Natural pad, prefix",28.7
+LoRA-Aug-1.5B,out-of-distribution,para,footer,"Natural pad, prefix",28.7
+LoRA-AugMix-1.5B,out-of-distribution,para,notice,"Natural pad, 240 words",6.3
+LoRA-AugMix-1.5B,out-of-distribution,para,none,"Natural pad, 240 words",6.0
+LoRA-AugMix-1.5B,out-of-distribution,para,footer,"Natural pad, 240 words",5.3
+LoRA-AugMix-1.5B,out-of-distribution,para,hidden,"Natural pad, 240 words",5.3

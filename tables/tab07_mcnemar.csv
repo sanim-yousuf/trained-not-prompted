@@ -1,0 +1,57 @@
+Manipulation,Comparison,DR A,DR B,A only,B only,p,p (Holm)
+Clean,LR-word vs LoRA-1.5B,99.4,99.0,5,2,0.453,1.000
+Clean,Hybrid-OR vs LoRA-1.5B,99.6,99.0,5,0,0.062,1.000
+Clean,Hybrid-OR vs LR-word,99.6,99.4,2,0,0.500,1.000
+Clean,Hybrid-Stack vs LoRA-1.5B,99.6,99.0,5,0,0.062,1.000
+Clean,Hybrid-OR vs Hybrid-Stack,99.6,99.6,0,0,1.000,1.000
+Clean,Stack-Aug vs Hybrid-Stack,99.6,99.6,0,0,1.000,1.000
+Clean,Hybrid-Stack vs Stack-noInj,99.6,99.5,1,0,1.000,1.000
+Good-word,LR-word vs LoRA-1.5B,37.1,100.0,0,503,<0.001,<0.001
+Good-word,Hybrid-OR vs LoRA-1.5B,100.0,100.0,0,0,1.000,1.000
+Good-word,Hybrid-OR vs LR-word,100.0,37.1,503,0,<0.001,<0.001
+Good-word,Hybrid-Stack vs LoRA-1.5B,99.0,100.0,0,8,0.008,0.336
+Good-word,Hybrid-OR vs Hybrid-Stack,100.0,99.0,8,0,0.008,0.336
+Good-word,Stack-Aug vs Hybrid-Stack,97.8,99.0,0,10,0.002,0.090
+Good-word,Hybrid-Stack vs Stack-noInj,99.0,99.6,1,6,0.125,1.000
+Natural pad,LR-word vs LoRA-1.5B,60.6,58.0,138,117,0.210,1.000
+Natural pad,Hybrid-OR vs LoRA-1.5B,68.2,58.0,107,25,<0.001,<0.001
+Natural pad,Hybrid-OR vs LR-word,68.2,60.6,100,39,<0.001,<0.001
+Natural pad,Hybrid-Stack vs LoRA-1.5B,68.2,58.0,111,29,<0.001,<0.001
+Natural pad,Hybrid-OR vs Hybrid-Stack,68.2,68.2,34,34,1.000,1.000
+Natural pad,Stack-Aug vs Hybrid-Stack,74.5,68.2,53,3,<0.001,<0.001
+Natural pad,Hybrid-Stack vs Stack-noInj,68.2,70.8,2,22,<0.001,0.002
+Paraphrase,LR-word vs LoRA-1.5B,98.3,97.6,13,8,0.383,1.000
+Paraphrase,Hybrid-OR vs LoRA-1.5B,99.3,97.6,12,0,<0.001,0.023
+Paraphrase,Hybrid-OR vs LR-word,99.3,98.3,8,1,0.039,1.000
+Paraphrase,Hybrid-Stack vs LoRA-1.5B,99.0,97.6,10,0,0.002,0.090
+Paraphrase,Hybrid-OR vs Hybrid-Stack,99.3,99.0,3,1,0.625,1.000
+Paraphrase,Stack-Aug vs Hybrid-Stack,99.4,99.0,3,0,0.250,1.000
+Paraphrase,Hybrid-Stack vs Stack-noInj,99.0,99.0,0,0,1.000,1.000
+Neutral suffix (ctrl),LR-word vs LoRA-1.5B,97.2,99.2,4,20,0.002,0.073
+Neutral suffix (ctrl),Hybrid-OR vs LoRA-1.5B,99.6,99.2,4,1,0.375,1.000
+Neutral suffix (ctrl),Hybrid-OR vs LR-word,99.6,97.2,19,0,<0.001,<0.001
+Neutral suffix (ctrl),Hybrid-Stack vs LoRA-1.5B,99.4,99.2,4,3,1.000,1.000
+Neutral suffix (ctrl),Hybrid-OR vs Hybrid-Stack,99.6,99.4,2,0,0.500,1.000
+Neutral suffix (ctrl),Stack-Aug vs Hybrid-Stack,99.5,99.4,1,0,1.000,1.000
+Neutral suffix (ctrl),Hybrid-Stack vs Stack-noInj,99.4,99.4,2,2,1.000,1.000
+Injection,LR-word vs LoRA-1.5B,99.4,99.1,4,2,0.688,1.000
+Injection,Hybrid-OR vs LoRA-1.5B,99.6,99.1,4,0,0.125,1.000
+Injection,Hybrid-OR vs LR-word,99.6,99.4,2,0,0.500,1.000
+Injection,Hybrid-Stack vs LoRA-1.5B,100.0,99.1,7,0,0.016,0.641
+Injection,Hybrid-OR vs Hybrid-Stack,99.6,100.0,0,3,0.250,1.000
+Injection,Stack-Aug vs Hybrid-Stack,99.8,100.0,0,2,0.500,1.000
+Injection,Hybrid-Stack vs Stack-noInj,100.0,100.0,0,0,1.000,1.000
+Injection (aware),LR-word vs LoRA-1.5B,99.0,99.1,4,5,1.000,1.000
+Injection (aware),Hybrid-OR vs LoRA-1.5B,99.6,99.1,4,0,0.125,1.000
+Injection (aware),Hybrid-OR vs LR-word,99.6,99.0,5,0,0.062,1.000
+Injection (aware),Hybrid-Stack vs LoRA-1.5B,100.0,99.1,7,0,0.016,0.641
+Injection (aware),Hybrid-OR vs Hybrid-Stack,99.6,100.0,0,3,0.250,1.000
+Injection (aware),Stack-Aug vs Hybrid-Stack,99.6,100.0,0,3,0.250,1.000
+Injection (aware),Hybrid-Stack vs Stack-noInj,100.0,100.0,0,0,1.000,1.000
+Para.+Inject.,LR-word vs LoRA-1.5B,98.6,98.5,8,7,1.000,1.000
+Para.+Inject.,Hybrid-OR vs LoRA-1.5B,99.4,98.5,8,1,0.039,1.000
+Para.+Inject.,Hybrid-OR vs LR-word,99.4,98.6,7,1,0.070,1.000
+Para.+Inject.,Hybrid-Stack vs LoRA-1.5B,99.9,98.5,10,0,0.002,0.090
+Para.+Inject.,Hybrid-OR vs Hybrid-Stack,99.4,99.9,0,3,0.250,1.000
+Para.+Inject.,Stack-Aug vs Hybrid-Stack,99.7,99.9,0,1,1.000,1.000
+Para.+Inject.,Hybrid-Stack vs Stack-noInj,99.9,99.9,0,0,1.000,1.000

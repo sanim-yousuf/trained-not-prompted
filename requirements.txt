@@ -1,0 +1,18 @@
+# Versions of the reported run (Kaggle, Python 3.13, CUDA 13.0, 2x NVIDIA T4).
+# The notebook installs missing packages itself; this file is for local use.
+torch==2.11.0
+transformers==5.20.2
+peft==0.21.2
+accelerate
+bitsandbytes          # 4-bit loading of the 7B prompted baseline
+scikit-learn==1.6.1
+xgboost==3.4.1
+huggingface_hub
+numpy
+pandas
+pyarrow
+scipy
+matplotlib
+joblib
+psutil
+jupytext              # only to rebuild the notebook from src/

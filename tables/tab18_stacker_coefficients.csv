@@ -1,0 +1,4 @@
+Stacker,LR-word,LoRA-1.5B,ZS-1.5B,InjDet
+Hybrid-Stack,3.822,3.218,-0.771,1.687
+Stack-noInj,3.77,3.741,-0.976,
+Stack-Aug,4.019,2.805,-0.315,-0.334

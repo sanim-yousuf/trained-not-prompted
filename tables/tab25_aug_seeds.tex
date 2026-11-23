@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{LoRA-Aug-1.5B detection rate (\%) across training seeds.}
+\label{tab:augseeds}
+\footnotesize
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Padding} & \textbf{Mean} & \textbf{SD} & \textbf{Min} & \textbf{Max} & \textbf{Seeds} \\
+\midrule
+Clean & 99.0 & 0.3 & 98.8 & 99.2 & 3 \\
+Natural pad (suffix, 80) & 98.8 & 0.1 & 98.6 & 98.9 & 3 \\
+Natural pad, prefix & 79.0 & 2.6 & 76.9 & 81.9 & 3 \\
+Natural pad, interleaved & 95.1 & 1.3 & 93.6 & 95.9 & 3 \\
+Natural pad, 240 words & 97.6 & 0.2 & 97.4 & 97.8 & 3 \\
+Natural pad, hidden HTML & 99.0 & 0.3 & 98.6 & 99.1 & 3 \\
+LLM-written pad & 98.8 & 0.3 & 98.4 & 99.0 & 3 \\
+\bottomrule
+\end{tabular}
+\end{table}

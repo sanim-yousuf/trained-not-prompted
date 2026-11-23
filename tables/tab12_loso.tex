@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Leave-one-source-out balanced accuracy at a validation-fixed FPR (thresholds from the other sources).}
+\label{tab:loso}
+\footnotesize
+\begin{tabular}{lcccccccc}
+\toprule
+\textbf{Held-out source} & \textbf{NB} & \textbf{LR-word} & \textbf{SVM-char} & \textbf{RF} & \textbf{XGBoost} & \textbf{ZS-1.5B} & \textbf{Probe-1.5B} & \textbf{LoRA-1.5B} \\
+\midrule
+CEAS-08 & 0.947 & 0.937 & 0.938 & 0.927 & 0.912 & 0.639 & 0.956 & 0.961 \\
+Enron & 0.764 & 0.783 & 0.725 & 0.779 & 0.805 & 0.582 & 0.916 & 0.958 \\
+Ling & 0.950 & 0.945 & 0.966 & 0.909 & 0.950 & 0.583 & 0.937 & 0.955 \\
+Nazario & 0.381 (TPR) & 0.690 (TPR) & 0.690 (TPR) & 0.476 (TPR) & 0.476 (TPR) & 0.333 (TPR) & 0.714 (TPR) & 0.905 (TPR) \\
+Nigerian-Fraud & 1.000 (TPR) & 1.000 (TPR) & 1.000 (TPR) & 0.831 (TPR) & 0.966 (TPR) & 0.045 (TPR) & 0.843 (TPR) & 1.000 (TPR) \\
+SpamAssassin & 0.908 & 0.926 & 0.869 & 0.831 & 0.891 & 0.588 & 0.848 & 0.927 \\
+\bottomrule
+\end{tabular}
+\\[2pt]{\scriptsize n/r: LoRA retrained only without Enron, Nazario. ZS needs no training; Probe is refit per held-out source.}
+\end{table}

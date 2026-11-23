@@ -1,0 +1,17 @@
+Attack,Target,Emails,Success [95% CI],Token-level,Median queries,Median words,Transfer to classical
+score-guided padding,LoRA-1.5B,147,"100.0 [100.0, 100.0]",n/a,48,36,10.9
+score-guided padding,LoRA-Aug-1.5B,147,"96.6 [93.9, 99.3]",n/a,72,68,36.6
+score-guided padding,LoRA-AugMix-1.5B,147,"49.0 [41.5, 57.1]",n/a,120,88,45.8
+score-guided padding,LoRA-Gen-1.5B,148,"100.0 [100.0, 100.0]",n/a,72,52,25.7
+score-guided padding,RoBERTa-FT,148,"100.0 [100.0, 100.0]",n/a,48,47,8.8
+score-guided padding,Hybrid-OR,149,"94.6 [91.3, 98.0]",n/a,72,68,n/a
+score-guided padding,Hybrid-OR-AugMix,149,"52.3 [44.3, 59.7]",n/a,120,106,n/a
+score-guided padding,LR-word,149,"95.3 [91.9, 98.0]",n/a,72,76,n/a
+label-only padding,LoRA-1.5B,147,"97.3 [94.6, 99.3]",n/a,26,31,n/a
+label-only padding,LoRA-AugMix-1.5B,147,"17.0 [11.5, 23.8]",n/a,76,73,n/a
+label-only padding,Hybrid-OR,149,"65.1 [57.0, 72.5]",n/a,85,79,n/a
+label-only padding,Hybrid-OR-AugMix,149,"14.1 [9.4, 19.5]",n/a,129,105,n/a
+label-only padding,LR-word,149,"61.7 [54.4, 69.8]",n/a,87,83,n/a
+GCG suffix,LoRA-1.5B,30,"6.7 [0.0, 16.7]",10.0,n/a,n/a,n/a
+GCG suffix,LoRA-AugMix-1.5B,30,"6.7 [0.0, 16.7]",10.0,n/a,n/a,n/a
+GCG suffix,RoBERTa-FT,30,"26.7 [13.3, 43.3]",33.3,n/a,n/a,n/a

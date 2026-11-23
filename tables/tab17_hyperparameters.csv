@@ -1,0 +1,9 @@
+Model,Hyper-parameter,Grid,Selected,Full-test ROC-AUC
+NB,alpha,"0.0001, 0.0003, 0.001, 0.003, 0.01",0.0001,0.9995
+LR-word,C,"16.0, 64.0, 256.0, 1024.0",1024.0,0.9996
+SVM-char,C,"2.0, 8.0, 32.0",32.0,0.9993
+RF,min_samples_leaf,"1, 2, 4",1.0,0.9980
+XGBoost,max_leaves,"31, 127, 511",31.0,0.9990
+Probe-1.5B,layer,8 layers,24 of 28,n/a
+Probe-3B,layer,8 layers,31 of 36,n/a
+Probe-L3B,layer,8 layers,28 of 28,n/a

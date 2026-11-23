@@ -1,0 +1,49 @@
+seed,attack,value
+42,AUC (clean test),0.9989111666666667
+42,clean,0.99
+42,goodword,1.0
+42,ASR goodword,0.0
+42,ham_pad,0.58
+42,ASR ham_pad,0.4154040404040404
+42,paraphrase,0.9760900140646976
+42,ASR paraphrase,0.012802275960170697
+42,neutral,0.9925
+42,ASR neutral,0.0
+42,inject,0.99125
+42,ASR inject,0.0
+42,inject_aware,0.99125
+42,ASR inject_aware,0.0
+42,para_inject,0.9845288326300985
+42,ASR para_inject,0.005689900426742532
+43,AUC (clean test),0.9991431666666666
+43,clean,0.99375
+43,goodword,0.99875
+43,ASR goodword,0.0
+43,ham_pad,0.69625
+43,ASR ham_pad,0.2993710691823899
+43,paraphrase,0.9746835443037974
+43,ASR paraphrase,0.018413597733711047
+43,neutral,0.99375
+43,ASR neutral,0.0025157232704402514
+43,inject,0.99625
+43,ASR inject,0.0
+43,inject_aware,0.99625
+43,ASR inject_aware,0.0
+43,para_inject,0.9817158931082982
+43,ASR para_inject,0.012747875354107648
+44,AUC (clean test),0.9989215
+44,clean,0.99375
+44,goodword,0.9975
+44,ASR goodword,0.0
+44,ham_pad,0.45625
+44,ASR ham_pad,0.5408805031446541
+44,paraphrase,0.9774964838255977
+44,ASR paraphrase,0.0169971671388102
+44,neutral,0.99
+44,ASR neutral,0.005031446540880503
+44,inject,0.995
+44,ASR inject,0.0012578616352201257
+44,inject_aware,0.99375
+44,ASR inject_aware,0.0012578616352201257
+44,para_inject,0.9873417721518988
+44,ASR para_inject,0.007082152974504249

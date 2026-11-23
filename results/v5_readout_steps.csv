@@ -1,0 +1,13 @@
+step,from_,to,wording,did,lo,hi,excludes_zero
+"train the label word (same prompt, same read-out)",ZS-1.5B,LoRA-Gen-1.5B,generic,0.39335333333333333,0.3686561510416667,0.4187553645833333,True
+"train the label word (same prompt, same read-out)",ZS-1.5B,LoRA-Gen-1.5B,label-aware,0.5096191666666666,0.4800580833333334,0.5365492864583333,True
+label word -> classification head (same prompt),LoRA-Gen-1.5B,LoRA-Prompt-1.5B,generic,0.00031770833333333775,0.00012747916666667003,0.0005454583333333382,True
+label word -> classification head (same prompt),LoRA-Gen-1.5B,LoRA-Prompt-1.5B,label-aware,0.000538541666666672,0.0003008020833333411,0.0007160989583333366,True
+prompted input -> raw email (head),LoRA-Prompt-1.5B,LoRA-1.5B,generic,0.0001593749999999973,5.720833333332876e-05,0.00024836458333333,True
+prompted input -> raw email (head),LoRA-Prompt-1.5B,LoRA-1.5B,label-aware,0.00015687499999999952,6.395833333333308e-05,0.00024041666666666496,True
+"prompted -> trained, all at once",ZS-1.5B,LoRA-1.5B,generic,0.3938304166666667,0.367907453125,0.41762795312499995,True
+"prompted -> trained, all at once",ZS-1.5B,LoRA-1.5B,label-aware,0.5103145833333333,0.48306641145833334,0.5382709375,True
+prompt defense: spotlighting,ZS-1.5B,ZS-Spot-1.5B,generic,0.07636791666666666,0.05910565625000001,0.09316330729166666,True
+prompt defense: spotlighting,ZS-1.5B,ZS-Spot-1.5B,label-aware,0.14882562500000002,0.131939,0.16546747916666668,True
+scale: 1.5B -> 7B (prompted),ZS-1.5B,ZS-7B,generic,0.36390500000000003,0.3423394166666667,0.38789556249999996,True
+scale: 1.5B -> 7B (prompted),ZS-1.5B,ZS-7B,label-aware,0.4636341666666667,0.4359265625,0.48916304687500006,True

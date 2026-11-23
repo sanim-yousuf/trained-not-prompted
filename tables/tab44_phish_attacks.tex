@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Adaptive padding attacks on phishing emails (\%).}
+\label{tab:phishattacks}
+\footnotesize
+\begin{tabular}{lccc}
+\toprule
+\textbf{Attack} & \textbf{Target} & \textbf{Emails} & \textbf{Success [95\% CI]} \\
+\midrule
+score-guided padding (phishing) & LoRA-1.5B & 119 & 100.0 [100.0, 100.0] \\
+score-guided padding (phishing) & LoRA-AugMix-1.5B & 120 & 61.7 [52.5, 70.0] \\
+score-guided padding (phishing) & LR-word & 120 & 69.2 [60.8, 77.5] \\
+label-only padding (phishing) & LoRA-AugMix-1.5B & 120 & 18.3 [11.7, 25.8] \\
+label-only padding (phishing) & LR-word & 120 & 21.7 [15.0, 29.2] \\
+\bottomrule
+\end{tabular}
+\end{table}

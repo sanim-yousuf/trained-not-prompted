@@ -1,0 +1,10 @@
+Emails,Auto-block (%),Review (%),Auto-allow (%)
+Clean,98.8,0.9,0.4
+Good-word,37.1,62.9,0.0
+Natural pad,43.4,31.9,24.8
+Paraphrase,96.5,3.0,0.6
+Neutral suffix (ctrl),96.8,3.0,0.2
+Injection,98.9,0.8,0.4
+Injection (aware),98.5,1.1,0.4
+Para.+Inject.,97.5,2.1,0.4
+Legitimate (clean),0.2,1.5,98.3

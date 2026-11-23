@@ -1,0 +1,3 @@
+detector,components,fpr_val,fpr_test,dr_clean,dr_ham_pad,dr_inject_aware,dr_paraphrase,dr_pad_prefix,dr_pad_interleave,dr_pad_long,dr_pad_hidden,dr_pad_llm,fpr_legit_inject,fpr_legit_realinstr,fpr_legit_pad,fpr_legit_pad_ood
+Hybrid-OR,LR-word OR LoRA-1.5B,0.00949367088607595,0.013,0.99625,0.6825,0.99625,0.9929676511954993,0.855,0.7775,0.325,0.88875,0.955,0.01625,0.0175,0.0025,0.02
+Hybrid-OR-AugMix,LR-word OR LoRA-AugMix-1.5B,0.00949367088607595,0.011,0.9975,0.97375,0.99625,0.9915611814345991,0.98,0.97,0.96125,0.9825,0.985,0.01875,0.05625,0.00375,0.01
